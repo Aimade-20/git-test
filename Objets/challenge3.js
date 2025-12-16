@@ -1,9 +1,10 @@
-entreprise ={
-    rue : "hey wafa",
+entreprise ={adesse :
+    {  rue : "hey wafa",
     ville :"beni mellal",
-    codepostal :"2225"
+    codepostal :"2225"}
+  
 }
-console.log(entreprise.ville)
+console.log(entreprise.adesse.ville)
 
 console.log("----------------------------------")
 produits = [
