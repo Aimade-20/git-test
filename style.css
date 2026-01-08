@@ -1,0 +1,298 @@
+
+.carte{
+  box-shadow: 10px 10px 5px 8px lightblue;
+    width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: whitesmoke;
+}
+.titre{
+    text-shadow: 5px 5px 5px;
+    text-align: center;
+    font-size: x-large;
+}
+#butt{
+    width: 150px;
+    padding: 10px;
+    background-color: #1D546D;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.button:hover {
+    background-color: #061E29;
+    transform: scale(1.05);
+}
+.profile-card {
+  box-shadow: 10px 10px 5px 8px lightblue;
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #CCE5CF;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  
+    text-align: center;
+  }
+  
+  .profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;     
+    object-fit: cover;
+  }
+  
+  .profile-card h3 {
+    margin: 0;
+  }
+  
+  .profile-card span {
+    color: #0D4715;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .profile-card p {
+    font-size: 14px;
+    color: black;
+  }
+
+  .trafication{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  hr{
+    border: 1px solid black;
+    width: 100%;
+    margin: 15px 0;
+  }
+  .carteprix{
+    box-shadow: 10px 10px 5px 8px lightblue;
+      width: 280px;
+  padding: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  background-color: whitesmoke;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  text-align: center;
+  }
+  .vbar{
+    display: flex;
+    background-color: #d0ecff;
+    justify-content: space-around;
+    border:2px solid black;
+    border-radius: 8px;
+    height: 60px;
+    align-items: center;
+  }
+  .vbar img{
+    width: 70px;
+  }
+  #h33{
+    color: #f66b15;
+    justify-content: flex-end;
+  }
+  .vbar button{
+    border: none;
+    background-color: #d0ecff;
+    font-weight: bolder;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .all{
+    background-color: #1D546D;
+    gap: 20px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(3,auto);
+    width: 90rem;
+    height: 90rem;
+    
+  }
+  .put1{
+   grid-row-start:1 ;
+   grid-row-end: 2;
+    grid-column-start:1 ;
+    grid-column-end:5;
+  }
+  .put2{
+    grid-row-start:2 ;
+    grid-row-end: 3;
+     grid-column-start:1 ;
+     grid-column-end:3;
+   } 
+    .put3{
+    grid-row-start:2 ;
+    grid-row-end: 3;
+     grid-column-start:3 ;
+     grid-column-end:5;
+   }
+   .put4{
+    grid-row-start:3;
+    grid-row-end: 4;
+     grid-column-start:1 ;
+     grid-column-end:5;
+   }
+   .all img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .all div {
+    overflow: hidden;
+  }
+  
+  .all img {
+    transition: transform 0.3s ease;
+  }
+  
+  .all img:hover {
+    transform: scale(1.1);
+  }
+  .loging{
+    box-shadow: 10px 10px 5px 8px lightblue;
+    width: 380px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #CCE5CF;
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+.loging button{
+  width: 150px;
+  padding: 10px;
+  background-color: #1D546D;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.alll h4{
+  text-align: left;
+  color: red;
+}
+#pass{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+.alll{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.login{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;     
+  object-fit: cover;
+  display: block;
+}
+.loging button:hover {
+  background-color: #416c80;
+  transform: scale(1.05);
+}
+.alll img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.alll input{
+  background-color: whitesmoke;
+  outline: none;
+  border-radius: 6px;
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.loader-1 {
+  width: 48px;
+  height: 48px;
+  border: 5px dashed rgb(255 255 255 / 0.16);
+  border-bottom-color: #00A9FE;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hero{
+  
+  height: 100vh;
+  background-image: url("beach.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+
+}
+.hero {
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hero * {
+  position: relative;
+}
+.button1 {
+  background-color: #008CBA;
+  transform: scale(1.05);
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
